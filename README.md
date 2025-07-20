@@ -22,7 +22,8 @@ The program takes a decimal number from the user along with the preferred precis
 - Mantissa bits (fractional part)
 - Final IEEE 754 binary string
 
-The output is shown in a clear table format, breaking down each component.
+Read more about IEEE 754: https://en.wikipedia.org/wiki/IEEE_754
+
 
 ## How to run
 
