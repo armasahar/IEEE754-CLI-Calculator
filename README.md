@@ -1,4 +1,6 @@
+
 # IEEE-754 CLI Calculator 
+
 A simple command-line tool to convert fractional numbers into IEEE 754 binary format using JavaScript.
 
 It supports both 32-bit (single precision) and 64-bit (double precision) formats.
