@@ -20,7 +20,7 @@ while (1) {
         let number = readlinesync.question("Enter a fractional number: ");
         ieee754(number, bits, expBits);
     } else {
-        console.log("Invalid Input, Please Try Again!\n");
+        console.log("Invalid Input, Please Try Again with a number!\n");
     }
 
     let decision = readlinesync.question("Do you want to continue? (Y/N): ");
@@ -32,7 +32,7 @@ while (1) {
 
 
 function ieee754(number, Mantissa_Bits, exponent_Bits) {
-    console.log(`\nProcessing ${Mantissa_Bits === 23 ? "32-bit" : "64-bit"} IEEE 754...\n`);
+    console.log(`\n Converting fractional to Binary ${Mantissa_Bits === 23 ? "32-bit" : "64-bit"} IEEE 754...\n`);
 
     let sign = number >= 0 ? "0" : "1";
     number = Math.abs(number).toString();
