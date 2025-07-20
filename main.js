@@ -1,7 +1,7 @@
 import readlinesync from "readline-sync";
 
 while (1) {
-    console.log("\nIEEE 754 Calculator");
+    console.log("IEEE 754 Calculator");
     console.log("Press 0 to Exit");
     console.log("Press 1 to get Single Precision - 32 Bit conversion");
     console.log("Press 2 to get Double Precision - 64 Bit conversion");
