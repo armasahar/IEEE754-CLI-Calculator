@@ -87,8 +87,8 @@ You can read more about IEEE 754 here:
 3. Install dependencies:
    ```bash
    npm install
-    npm init -y
-    npm i readline-sync --save
+   npm init -y
+   npm i readline-sync --save
 
 4. Run the calculator
    ```bash
