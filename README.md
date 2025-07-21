@@ -13,6 +13,8 @@ IEEE 754 is the standard format that computers use to store and calculate floati
 - Exponent: Helps represent very large or very small numbers using powers of two
 - Mantissa (or fraction):  Stores the precision bits of the number
 
+Read more about IEEE 754: https://en.wikipedia.org/wiki/IEEE_754
+
 This project helps you understand how any fractional number is represented in memory at the binary level.
 
 ## How it works
@@ -23,8 +25,6 @@ The program takes a decimal number from the user along with the preferred precis
 - Exponent in binary (with bias added)
 - Mantissa bits (fractional part)
 - Final IEEE 754 binary string
-
-Read more about IEEE 754: https://en.wikipedia.org/wiki/IEEE_754
 
 
 ## How to run
